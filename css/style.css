@@ -1,5 +1,38 @@
 
 h1 {
-  color: navy;
   margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-name: Test;
+}
+
+@keyframes Test {
+  from {color:red}
+  to {color:#1025e0}
+}
+
+
+
+img {
+  opacity: 0.8;
+  border-style: dotted;
+}
+
+a{
+  font-weight:bold;
+}
+
+p{
+  font-weight:lighter;
+}
+
+address{
+  border-style:double
+}
+
+details{
+  border: 3px solid #1025e0;
+}
+
+ul li{
+  list-style-type: square;
 }
