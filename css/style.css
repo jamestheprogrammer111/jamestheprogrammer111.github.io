@@ -36,3 +36,9 @@ details{
 ul li{
   list-style-type: square;
 }
+
+div{
+  border-style:double;
+  border-color:red;
+  border-radius: 20px;
+}
