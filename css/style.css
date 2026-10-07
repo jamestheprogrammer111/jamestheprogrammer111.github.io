@@ -55,3 +55,7 @@ div{
 .aboutpagetop{
   color:purple
 }
+
+.mid{
+  justify-content: center;
+}
