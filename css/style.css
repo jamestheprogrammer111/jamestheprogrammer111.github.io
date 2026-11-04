@@ -26,7 +26,8 @@ p{
 }
 
 address{
-  border-style:double
+  border-style:double;
+  padding:12px;
 }
 
 details{
@@ -52,7 +53,7 @@ div{
     "wdth" 100;
 }
 
-.aboutpagetop{
+#aboutpagetop{
   color:purple;
   display: flex;
   justify-content: center;
@@ -64,5 +65,16 @@ div{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
   border-style: none;
+}
+
+
+#aboutPage {
+  background-image: url("../brickWall.jpg");
+   background-size: 50pc
+}
+
+div, p, h2{
+  background-color: aquamarine;
 }
