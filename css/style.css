@@ -10,7 +10,9 @@ h1 {
   to {color:#1025e0}
 }
 
-
+main{
+  font-size: min(16px);
+}
 
 img {
   opacity: 0.8;
@@ -22,6 +24,7 @@ a{
 }
 
 p{
+  font-size: max(2em ,16px);
   font-weight:normal;
 }
 
@@ -30,8 +33,13 @@ address{
   padding:12px;
 }
 
+address a {
+  font-size:24px;
+}
+
 details{
   border: 3px solid #1025e0;
+  padding: 5px
 }
 
 ul li{
@@ -50,15 +58,17 @@ div{
   font-weight: 50;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+  "wdth" 100;
 }
 
 #aboutpagetop{
-  color:purple;
+  color:rgb(185, 193, 193);
   display: flex;
   justify-content: center;
   align-items: center;
   border-style: none;
+  background-color: black;
+  
 }
 
 .mid{
@@ -69,6 +79,10 @@ div{
   border-style: none;
 }
 
+#basicBackground{
+  background-color: white;
+}
+
 
 #aboutPage {
   background-image: url("../brickWall.jpg");
@@ -77,6 +91,11 @@ div{
 
 p, h2{
   background-color: aquamarine;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  border-radius: 14px;
 }
 
 
@@ -104,4 +123,22 @@ p, h2{
 
 ul li a:hover {
   background-color: #111111;
+}
+
+address{
+  background-color: white;
+}
+
+figure {
+  border: thin silver solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 70%;
+  margin: 5px;
+}
+
+.logo{
+  height: 2em;
+  border-style: none;
 }
